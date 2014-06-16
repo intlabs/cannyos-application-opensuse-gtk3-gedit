@@ -34,8 +34,8 @@ WORKDIR /
 #****************************************************
 
 #Install gedit
-RUN apt-get update -yqq && \
-	apt-get install -yqq gedit
+RUN zypper refresh && \
+	zypper install -y gedit
 
 #****************************************************
 #                                                   *
