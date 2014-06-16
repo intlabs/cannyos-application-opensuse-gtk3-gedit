@@ -1,7 +1,7 @@
 #
-# CannyOS ArchLinux container with gedit
+# CannyOS opensuse container with gedit
 #
-# https://github.com/intlabs/cannyos-application-archlinux-gtk3-gedit
+# https://github.com/intlabs/cannyos-application-opensuse-gtk3-gedit
 #
 # Copyright 2014 Pete Birley
 #
@@ -19,7 +19,7 @@
 #
 
 # Pull base image.
-FROM intlabs/cannyos-base-archlinux-gtk3
+FROM intlabs/cannyos-base-opensuse-gtk3
 
 # Set environment variables.
 ENV HOME /root
